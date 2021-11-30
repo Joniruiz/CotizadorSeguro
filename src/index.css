@@ -23,7 +23,7 @@ span.resultado {
   transform: translateY(0%);
 }
 .resultado-exit{
-  transform: translateY(50%);
+  transform: translateY(0);
   transition: 1.5s;
   position : absolute;
   left: 0;
@@ -32,5 +32,5 @@ span.resultado {
 }
 .resultado-exit-active{
   opacity: 0;
-  transform: translateY(50%);
+  transform: translateY(-10%);
 }
